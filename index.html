@@ -36,7 +36,7 @@
 
 <div class="body1">
   <div class="wrapper">
-    <div class="lilin" type="button" onclick="document.getElementById('id01').style.display='block'">
+    <div class="lilin" type="button"  id="scrollButton">
         <div class="api"></div>
         <div class="sumbu"></div>
         <div class="batang"></div>
@@ -70,7 +70,7 @@
  
 
   <!-- Header / Home-->
-  <header class="w3-display-container w3-wide bgimg w3-grayscale-min" style="background-color:#FFC5C5;" id="home">
+  <div class="w3-display-container w3-wide bgimg w3-grayscale-min" style="background-color:#FFC5C5;" id="section1">
     <div class="w3-display-middle w3-center">
       <h1 style="font-size: 35px;">Happy Birthday </h1>
       <h1 style="font-size: 35px ;">Tuan Putri &hearts;</h1>
@@ -78,13 +78,14 @@
       <button id="scrollButton" class="w3-button w3-padding-large"><img src="birthday-cake.png"
           style="width: 100px"></button>
       <h1 style="font-size: big;">Putri Arneta Sasabilna</h1>
+      <img src="1.JPG" style="width: 100%; margin-bottom: 10px;" alt="">
 
       <h2><b>03.09.01</b></h2>
     </div>
-  </header>
+  </div>
 
 
-  <div class="w3-display-container w3-wide bgimg w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="section1">
+  <div class="w3-display-container w3-wide bgimg w3-padding-64  w3-grayscale-min w3-center" style="background-color:#FFDBB5;" id="section2">
     <div class=" w3-container">
       <div class="row">
         <div class="col-md-4" style="position: relative;;" >
@@ -92,7 +93,8 @@
             <div class="card-body">
               <h5 class="card-title">&#9210; &#9210; &#9210; &#9210; &#9210; &#9210; &#9210; &#9210;</h5>
               <img src="1.JPG" style="width: 100%; margin-bottom: 10px;" alt="">
-              <a href="#" class="btn btn-primary">Push</a>
+              <button onclick="document.getElementById('id01').style.display='block'"
+        class="w3-button w3-round  w3-opacity w3-hover-opacity-off" style="padding:8px 60px; background-color:#FFC5C5">RSVP</button>
             </div>
           </div>
     
@@ -122,7 +124,7 @@
   </div>
 
   <!-- RSVP section -->
-  <div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
+  <div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="section2">
     <h1>HOPE YOU CAN MAKE IT!</h1>
     <p class="w3-large">Kindly Respond By January, 2017</p>
     <p class="w3-xlarge">
